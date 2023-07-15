@@ -13,3 +13,7 @@
 .bg-black-100 {
     background-color: #081621;
 }
+
+.adnan:hover .joy{
+    display: block;
+}
