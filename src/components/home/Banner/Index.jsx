@@ -2,6 +2,7 @@ import React from 'react';
 import { Col, Container, Row } from 'react-bootstrap';
 import Banner from './Banner';
 import CompareProducts from './CompareProducts';
+import PromotionAds from '../promotionAds/PromotionAds';
 
 const Index = () => {
     return (
@@ -12,6 +13,7 @@ const Index = () => {
                 </Col>
                 <Col sm={4} className='p-0'>
                     <CompareProducts />
+                    <PromotionAds/>
                 </Col>
             </Row>
         </div>

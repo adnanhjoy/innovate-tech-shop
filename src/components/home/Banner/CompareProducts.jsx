@@ -2,7 +2,7 @@ import React from 'react';
 
 const CompareProducts = () => {
     return (
-        <div className='ms-5'>
+        <div className='ms-lg-5 mt-4 mt-lg-0'>
             <div className='bg-warning-subtle px-5 py-3 rounded text-center shadow-lg'>
                 <p className='fw-bold'>Compare Products</p>
                 <p>Choose Two Products to Compare</p>
