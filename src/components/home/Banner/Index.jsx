@@ -6,7 +6,7 @@ import PromotionAds from '../promotionAds/PromotionAds';
 
 const Index = () => {
     return (
-        <div className='mx-5'>
+        <div>
             <Row className='w-100 m-auto'>
                 <Col sm={8} className='p-0'>
                     <Banner />
