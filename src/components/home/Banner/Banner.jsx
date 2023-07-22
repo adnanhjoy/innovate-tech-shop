@@ -13,7 +13,7 @@ import { Autoplay, EffectFade, Pagination } from 'swiper/modules';
 
 const Banner = () => {
     return (
-        <div>
+        <div className='pt-3 pt-md-0'>
             <Swiper
                 spaceBetween={30}
                 effect={'fade'}

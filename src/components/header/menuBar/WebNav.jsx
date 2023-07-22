@@ -4,7 +4,7 @@ import './NavBar.css'
 
 const WebNav = () => {
     return (
-        <ul className='d-flex gap-3 py-3'>
+        <ul className='d-md-flex gap-3 py-3 d-none'>
             <li className='list-unstyled'><Link className='text-decoration-none text-black py-3'>Desktop</Link></li>
             <li className='list-unstyled'><Link className='text-decoration-none text-black py-3'>Laptop</Link></li>
             {/* <div className='list-unstyled adnan position-relative d-inline'>
