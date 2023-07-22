@@ -17,7 +17,7 @@ const FeatureCategory = () => {
                         <div key={index} className='col mb-3 p-1'>
                             <div className='rounded bg-light p-4 shadow-sm d-flex flex-column justify-content-center align-items-center' style={{ cursor: 'pointer' }}>
                                 <FaTv className='fs-1'></FaTv>
-                                <p>Tv</p>
+                                <p className='m-0 mt-2'>LED TV</p>
                             </div>
                         </div>
                     )
