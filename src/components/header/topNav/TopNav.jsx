@@ -12,13 +12,13 @@ const TopNav = () => {
         <Navbar expand="lg" className="bg-black-100 py-3">
             <Container fluid>
                 <Navbar.Brand className='text-white' href="#">Innovate</Navbar.Brand>
-                <Navbar.Toggle aria-controls="navbarScroll" />
+                <Navbar.Toggle aria-controls="navbarScroll" className='bg-white fs-6 p-0'/>
                 <Navbar.Collapse id="navbarScroll">
                     <Form className="d-flex" style={{ width: '40em' }}>
                         <Form.Control
                             type="search"
                             placeholder="Search"
-                            className="me-5"
+                            className="me-5 d-none d-md-block"
                             aria-label="Search"
                         />
 
@@ -28,7 +28,7 @@ const TopNav = () => {
                         style={{ maxHeight: '100px' }}
                         navbarScroll
                     >
-                        <Link className='text-decoration-none me-5'>
+                        <Link className='text-decoration-none me-5 d-none d-md-block'>
                             <div className='d-flex justify-content-center align-items-center gap-2'>
                                 <FaGift className='text-orange fs-4'></FaGift>
                                 <div className='text-white d-flex flex-column'>
@@ -37,7 +37,7 @@ const TopNav = () => {
                                 </div>
                             </div>
                         </Link>
-                        <Link className='text-decoration-none me-5'>
+                        <Link className='text-decoration-none me-5 d-none d-md-block'>
                             <div className='d-flex justify-content-center align-items-center gap-2'>
                                 <MdFlashOn className='text-orange fs-4'></MdFlashOn>
                                 <div className='text-white d-flex flex-column'>
@@ -46,7 +46,7 @@ const TopNav = () => {
                                 </div>
                             </div>
                         </Link>
-                        <Link className='text-decoration-none me-5'>
+                        <Link className='text-decoration-none me-5 d-none d-md-block'>
                             <div className='d-flex justify-content-center align-items-center gap-2'>
                                 <FaUserAlt className='text-orange fs-4'></FaUserAlt>
                                 <div className='text-white d-flex flex-column'>
