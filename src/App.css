@@ -20,3 +20,6 @@ body{
 .bg-black-100 {
     background-color: #081621;
 }
+.fs-xs{
+    font-size: 10px;
+}
