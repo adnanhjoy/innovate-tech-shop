@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaUser } from 'react-icons/fa';
 
-const Account = () => {
+const AccountTop = () => {
     return (
         <div className='container mx-auto my-5'>
             <div className='d-flex justify-content-between align-items-center'>
@@ -29,4 +29,4 @@ const Account = () => {
     );
 };
 
-export default Account;
+export default AccountTop;

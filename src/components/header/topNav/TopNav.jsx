@@ -52,7 +52,7 @@ const TopNav = () => {
                             <div className='d-flex justify-content-center align-items-center gap-2'>
                                 <FaUserAlt className='text-orange fs-4'></FaUserAlt>
                                 <div className='text-white d-flex flex-column'>
-                                    <span>Account</span>
+                                    <Link to='/account' className='text-decoration-none text-white'>Account</Link>
                                     <Link to='/login' className='text-secondary text-decoration-none' style={{ fontSize: '12px' }}>Login</Link>
                                 </div>
                             </div>

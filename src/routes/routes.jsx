@@ -3,9 +3,11 @@ import Main from "../layout/Main";
 import Home from "../pages/Home/Home";
 import Register from "../pages/register/Register";
 import Login from "../pages/Login/Login";
-import Account from "../pages/account/Account";
+import Account from "../layout/Account";
+import AccountHome from "../components/account/AccountHome";
+import Order from "../components/account/Order";
 
-export const router =  createBrowserRouter([
+export const router = createBrowserRouter([
     {
         path: '/',
         element: <Main></Main>,
@@ -24,7 +26,17 @@ export const router =  createBrowserRouter([
             },
             {
                 path: '/account',
-                element: <Account/>
+                element: <Account />,
+                children: [
+                    {
+                        path: '/account',
+                        element: <AccountHome />
+                    },
+                    {
+                        path: '/account/order',
+                        element: <Order />
+                    }
+                ]
             }
         ]
     }
