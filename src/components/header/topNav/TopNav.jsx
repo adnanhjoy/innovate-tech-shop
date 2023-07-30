@@ -11,7 +11,9 @@ const TopNav = () => {
     return (
         <Navbar expand="lg" className="bg-black-100 py-3">
             <Container fluid>
-                <Navbar.Brand className='text-white' href="#">Innovate</Navbar.Brand>
+                <Navbar.Brand className='text-white'>
+                    <Link className='text-decoration-none text-white fw-bold'>Innovate</Link>
+                </Navbar.Brand>
                 <Navbar.Toggle aria-controls="navbarScroll" className='bg-white fs-6 p-0'/>
                 <Navbar.Collapse id="navbarScroll">
                     <Form className="d-flex" style={{ width: '40em' }}>
@@ -51,7 +53,7 @@ const TopNav = () => {
                                 <FaUserAlt className='text-orange fs-4'></FaUserAlt>
                                 <div className='text-white d-flex flex-column'>
                                     <span>Account</span>
-                                    <span className='text-secondary' style={{ fontSize: '12px' }}>Login</span>
+                                    <Link to='/login' className='text-secondary text-decoration-none' style={{ fontSize: '12px' }}>Login</Link>
                                 </div>
                             </div>
                         </Link>
