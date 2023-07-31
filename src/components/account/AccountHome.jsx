@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 const AccountHome = () => {
     return (
         <div className='container mx-auto mb-5'>
-            <Row md={4}>
+            <Row sm={3} md={4}>
                 <Col className='py-2'>
                     <Link to='/account/order' className='text-decoration-none '>
                         <div className='border rounded-3 shadow-sm pointer nav-card'>

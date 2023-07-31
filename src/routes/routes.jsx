@@ -6,6 +6,13 @@ import Login from "../pages/Login/Login";
 import Account from "../layout/Account";
 import AccountHome from "../components/account/AccountHome";
 import Order from "../components/account/Order";
+import EditProfile from "../components/account/EditProfile";
+import Password from "../components/account/Password";
+import SavedList from "../components/account/SavedList";
+import SavedPc from "../components/account/SavedPc";
+import StarPoints from "../components/account/StarPoints";
+import StoreCredit from "../components/account/StoreCredit";
+import Address from "../components/account/Address";
 
 export const router = createBrowserRouter([
     {
@@ -35,6 +42,34 @@ export const router = createBrowserRouter([
                     {
                         path: '/account/order',
                         element: <Order />
+                    },
+                    {
+                        path: '/account/edit-profile',
+                        element: <EditProfile/>
+                    },
+                    {
+                        path: '/account/address',
+                        element: <Address/>
+                    },
+                    {
+                        path: '/account/change-password',
+                        element: <Password/>
+                    },
+                    {
+                        path: '/account/savelist',
+                        element: <SavedList/>
+                    },
+                    {
+                        path: '/account/savepc',
+                        element: <SavedPc/>
+                    },
+                    {
+                        path: '/account/starpoints',
+                        element: <StarPoints/>
+                    },
+                    {
+                        path: '/account/store-credit',
+                        element: <StoreCredit/>
                     }
                 ]
             }
